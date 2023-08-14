@@ -1,0 +1,178 @@
+/* Exemplo de regra de estilo para o corpo da página */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.corpo-proposta {
+  width: 2480px;
+  height: 3508px;
+  background-color: white;
+  position: relative;
+  margin: 0 auto; /* Centraliza o corpo horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*TOPO ------------------------------------------ */
+
+.topo {
+  display: flex;
+  width: 2480px;
+  margin-top: 45px;
+}
+
+/* Elementos de topo */
+
+#Texto-principal {
+  margin-left: -1084px;
+  margin-top: 12px; /* Margem para separar da próxima seção */
+  width: 1158px;
+  height: 1846px;
+  flex-shrink: 0;
+}
+
+#sobre-nos {
+  margin-left: 1214px;
+  width: 635.164px;
+  height: 61px;
+  flex-shrink: 0;
+  color: #bb1f2f;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#quem-somos {
+  margin-left: 1219px;
+
+  width: 1158px;
+  color: #000;
+  text-align: justify;
+  /* description_aboutus */
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 61.6px */
+}
+
+/*fim topo ------------------------------------------ */
+
+/*Footer------------------------ */
+
+#footer {
+  /*border: solid 2px rgb(238, 255, 0);*/
+  width: 2480px;
+  height: 1308px;
+  flex-shrink: 0;
+  margin-top: 221px;
+}
+
+#footer {
+  background: #d9d9d9;
+}
+
+#NS-logo {
+  margin-top: 10px;
+  width: 686px;
+  height: 192px;
+  position: absolute;
+  left: 876px;
+}
+
+#service-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 55px;
+  right: 51.393px;
+
+  width: 2330px;
+  margin-top: 278px;
+  margin-left: 70px;
+}
+
+#compos {
+  margin-top: 362px;
+  width: 372px;
+  height: 50.847px;
+  margin-left: 1943px;
+}
+
+#service-link {
+  width: 730.827px;
+  height: 521px;
+}
+
+#service-data {
+  width: 730.827px;
+  height: 521px;
+}
+
+#service-serv {
+  width: 730.827px;
+  height: 521px;
+}
+
+#link-title {
+  color: #000;
+  text-align: justify;
+  /* text_services */
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#link-text {
+  color: #000;
+  text-align: justify;
+  /* text_services */
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#data-title {
+  color: #000;
+  text-align: justify;
+  /* text_services */
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#data-text {
+  color: #000;
+  text-align: justify;
+  /* text_services */
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#service-title {
+  color: #000;
+  text-align: justify;
+  /* text_services */
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#service-text {
+  color: #000;
+  text-align: justify;
+  /* text_services */
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*#Rodape-cinza-shape {
+  border: solid 2px red;
+  width: 2480px;
+  height: 1308px;
+  margin-top: -1211px;
+}*/
+/*fim Footer------------------------ */
